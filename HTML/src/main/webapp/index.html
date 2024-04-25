@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saque Bancário</title>
+</head>
+<body>
+    <h1>Saque Bancário</h1>
+    <form action="RealizarSaqueServlet" method="post">
+        <label for="cliente">Cliente:</label>
+        <input type="text" id="cliente" name="cliente"><br><br>
+        
+        <label for="numConta">Número da Conta:</label>
+        <input type="text" id="numConta" name="numConta"><br><br>
+        
+        <label for="valor">Valor do Saque:</label>
+        <input type="text" id="valor" name="valor"><br><br>
+        
+        <input type="submit" value="Saque">
+    </form>
+</body>
+</html>
